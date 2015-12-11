@@ -1,0 +1,323 @@
+body {
+  font-family: Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif, "SimSun";
+  background: #f7f7f7;
+}
+p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+li {
+  text-align: center;
+}
+.top {
+  height: 7px;
+  background: #114d7d;
+}
+.head .head-container {
+  width: 999px;
+  margin: 0 auto;
+}
+.head .head-container .logo {
+  float: left;
+  height: 104px;
+  line-height: 104px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.head .head-container .logo span {
+  float: left;
+  color: #114d7d;
+  margin-left: 10px;
+}
+.head .head-container .logo span + span {
+  color: #60b303;
+  margin-left: 25px;
+}
+.head .head-container .nav {
+  font-size: 12px;
+  color: #114d7d;
+}
+.head .head-container .nav .contact {
+  float: right;
+  margin: 17px 21px 5px 0;
+}
+.head .head-container .nav .contact a {
+  color: #114d7d;
+}
+.head .head-container .nav img {
+  float: left;
+  width: 13px;
+  height: 13px;
+  margin: 2px 7px 0 0;
+}
+.head .head-container .nav .phone {
+  position: relative;
+  top: 3px;
+}
+.head .head-container .nav .nav-info {
+  float: right;
+}
+.head .head-container .nav .nav-info li {
+  display: inline-block;
+  float: right;
+  width: 97px;
+  height: 48px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.head .head-container .nav .nav-info li a {
+  font-size: 16px;
+  color: #114d7d;
+}
+.head .head-container .nav .nav-info .active {
+  background: url("../img/active.png");
+}
+.head .head-container .nav .nav-info .active a {
+  color: #ffffff;
+}
+.ad {
+  clear: both;
+  position: relative;
+}
+.ad .banner {
+  width: 100%;
+  height: 325px;
+}
+.ad-float-container {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  margin-left: -495.5px;
+  font-size: 12px;
+}
+.ad-float-container .ad-float {
+  width: 275px;
+  height: 139px;
+  border: 1px solid #cfcfcf;
+  float: left;
+  margin-left: 80px;
+  background: #ffffff;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.ad-float-container .first {
+  margin-left: 0;
+}
+.ad-float-container .ad-pic {
+  margin: 16px 0 0 16px;
+  float: left;
+}
+.ad-float-container .ad-info {
+  width: 115px;
+  float: left;
+  margin: 22px 0 0 18px;
+}
+.ad-float-container .ad-info .title,
+.ad-float-container .ad-info .design {
+  float: left;
+}
+.ad-float-container .ad-info .design {
+  margin-top: 4px;
+}
+.ad-float-container .ad-info .title {
+  margin-left: 4px;
+  color: #114d7d;
+  font-weight: bold;
+}
+.ad-float-container .ad-info .int {
+  clear: both;
+  color: #000000;
+  margin-top: 30px;
+}
+.ad-float-container .ad-info button {
+  color: #ffffff;
+  background: #0c385b;
+  border: 1px solid #0c385b;
+  border-radius: 5px;
+  float: right;
+  margin: 13px 10px 0 0;
+  padding: 2.5px 6px;
+}
+.know {
+  width: 999px;
+  margin: 106px auto;
+  color: #949494;
+  font-size: 12px;
+}
+.know .box {
+  width: 277px;
+  height: 329px;
+  float: left;
+  margin-left: 82px;
+  position: relative;
+}
+.know .box .choose-pic {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.know .box .choose-pic li {
+  display: inline-block;
+  width: 88px;
+  height: 31px;
+  line-height: 31px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.know .box .choose-pic li + li {
+  width: 32px;
+  float: right;
+  color: #949494;
+}
+.know .box .choose-pic .pic_active {
+  background: #2c6eac;
+  color: #ffffff;
+}
+.know .box .sight-container {
+  width: 277px;
+  height: 203px;
+  margin-top: 35px;
+  position: relative;
+  overflow: hidden;
+}
+.know .box .sight-container .lunbo {
+  width: 1385px;
+  position: absolute;
+}
+.know .box .sight-container .lunbo .sight {
+  float: left;
+  width: 277px;
+  height: 203px;
+}
+.know .box .about {
+  height: 153px;
+  text-indent: 2em;
+  font-size: 12px;
+  line-height: 27px;
+  margin-top: 35px;
+}
+.know .box .button1:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.know .box .button1 {
+  width: 170px;
+  margin-top: 19px;
+  color: #949494;
+  border: 1px solid #cfcfcf;
+  background: #ffffff;
+  transition: 0.5s all;
+}
+.know .box .button1 .more {
+  float: left;
+  width: 122px;
+  height: 29px;
+  line-height: 30px;
+  border-right: 1px solid #cfcfcf;
+}
+.know .box .button1 div + div {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 15px;
+  margin: 6px 0 0 12px;
+}
+.know .box .botton2 {
+  margin-top: 7px;
+}
+.know .box p {
+  margin-top: 12px;
+}
+.know .box .address {
+  margin-top: 35px;
+}
+.know .box .num {
+  width: 100%;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  margin-top: 11px;
+}
+.know .box .num img {
+  margin: 6px 0 0 10px;
+  float: left;
+}
+.know .box .num span {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #949494;
+}
+.know .box .num span + span {
+  color: #60b303;
+}
+.know .first {
+  margin-left: 4px;
+}
+.know .click {
+  width: 272px;
+  height: 63px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  background: url("../img/box-bac.png");
+  padding: 0;
+  transition: all 0.5s;
+}
+.know .click .left {
+  float: left;
+  width: 63px;
+  height: 100%;
+  border-right: 1px solid #cfcfcf;
+  border-radius: 4px;
+}
+.know .click .left img {
+  margin: 14.5px 0 0 0;
+}
+.know .click .right p {
+  float: left;
+  margin: 16.5px 0 0 20px;
+  font-size: 20px;
+}
+.know .click .right p + p {
+  margin: 24px 0 0 10px;
+  font-size: 18px;
+}
+.know .click:hover {
+  background: #a4a4a4;
+  color: #ffffff;
+}
+.foot {
+  height: 112px;
+  border-top: 1px solid #e6e6e6;
+  clear: both;
+}
+.foot .foot-center {
+  width: 454px;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #949494;
+  overflow: hidden;
+}
+.foot .foot-center li {
+  width: 63px;
+  display: inline-block;
+  float: left;
+  margin-top: 28px;
+}
+.foot .foot-center li a {
+  font-size: 12px;
+  color: #949494;
+}
+.foot .foot-center li a:hover {
+  color: #000000;
+}
+.foot .foot-center p {
+  margin-top: 60px;
+}

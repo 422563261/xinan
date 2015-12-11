@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$(document).on("click",".inactive",function(e){
+		$(".active").attr("class","inactive");
+		$(this).attr("class","active");
+	});
+	$(".ad_float").mouseover(function(){
+		$(this).animate({opacity:1},200)
+	});
+	$(".ad_float").mouseleave(function(){
+		$(this).animate({opacity:0.7},0);
+	});
+});
