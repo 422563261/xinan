@@ -53,12 +53,18 @@ window.onload = function () {
 					animate(-277);
 				}
 				startflash();
-			},5000);
+			},4000);
 		}
 		function stopflash() {
             clearTimeout(timer);
         }
         startflash();
-		pic.addEventListener("mouseover",function(){stopflash();console.log(1)});
-		pic.addEventListener("mouseleave",function(){startflash();console.log(2)});
+        pic.onmouseover = function() {
+        	stopflash();console.log(1)
+        }
+        pic.onmouseleave = function(){
+        	startflash();console.log(2)
+        }
+		// pic.addEventListener("mouseover",function(){stopflash();console.log(1)});
+		//pic.addEventListener("mouseleave",function(){startflash();console.log(2)});
 	}

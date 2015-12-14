@@ -59,6 +59,7 @@ li {
   top: 3px;
 }
 .head .head-container .nav .nav-info {
+  width: 582px;
   float: right;
 }
 .head .head-container .nav .nav-info li {
@@ -102,7 +103,11 @@ li {
   margin-left: 80px;
   background: #ffffff;
   opacity: 0.7;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
   cursor: pointer;
+}
+.ad-float-container .ad-float:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
 }
 .ad-float-container .first {
   margin-left: 0;
@@ -131,7 +136,7 @@ li {
 .ad-float-container .ad-info .int {
   clear: both;
   color: #000000;
-  margin-top: 30px;
+  padding-top: 10px;
 }
 .ad-float-container .ad-info button {
   color: #ffffff;
@@ -159,10 +164,13 @@ li {
   width: 100%;
   position: absolute;
   bottom: 0px;
+  background-color: #000;
   background: rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
 }
 .know .box .choose-pic li {
   display: inline-block;
+  float: left;
   width: 88px;
   height: 31px;
   line-height: 31px;
@@ -206,8 +214,10 @@ li {
   border-radius: 10px;
 }
 .know .box .button1 {
-  width: 170px;
-  margin-top: 19px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 26px;
+  width: 174px;
   color: #949494;
   border: 1px solid #cfcfcf;
   background: #ffffff;
@@ -227,10 +237,8 @@ li {
   line-height: 15px;
   margin: 6px 0 0 12px;
 }
-.know .box .botton2 {
-  margin-top: 7px;
-}
 .know .box p {
+  text-align: left;
   margin-top: 12px;
 }
 .know .box .address {
@@ -286,7 +294,7 @@ li {
   font-size: 20px;
 }
 .know .click .right p + p {
-  margin: 24px 0 0 10px;
+  margin: 22px 0 0 10px;
   font-size: 18px;
 }
 .know .click:hover {
